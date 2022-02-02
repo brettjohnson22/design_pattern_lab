@@ -1,4 +1,4 @@
-from strategy_pattern.payment import Payment
+from payment import Payment
 
 class RegularPayment(Payment):
     def __init__(self, hourly_rate):

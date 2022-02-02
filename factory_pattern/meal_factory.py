@@ -1,5 +1,5 @@
-from factory_pattern.lasagna import Lasagna
-from factory_pattern.sushi import Sushi
+from lasagna import Lasagna
+from sushi import Sushi
 
 
 class MealFactory:

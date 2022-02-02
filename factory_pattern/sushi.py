@@ -1,4 +1,5 @@
-from factory_pattern.meal import Meal
+from meal import Meal
 
 class Sushi(Meal):
-    pass
+    def __init__(self):
+        super().__init__("Sushi")

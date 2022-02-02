@@ -1,8 +1,8 @@
-from facade_pattern.dough import Dough
-from facade_pattern.sauce import Sauce
-from facade_pattern.topping import Topping
-from facade_pattern.cheese import Cheese
-from facade_pattern.oven import Oven
+from dough import Dough
+from sauce import Sauce
+from topping import Topping
+from cheese import Cheese
+from oven import Oven
 
 
 class PizzaFacade:

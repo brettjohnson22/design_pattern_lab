@@ -1,5 +1,5 @@
-from strategy_pattern.overtime_payment import OvertimePayment
-from strategy_pattern.regular_payment import RegularPayment
+from overtime_payment import OvertimePayment
+from regular_payment import RegularPayment
 
 class Employee:
     def __init__(self, pay_rate):
@@ -22,3 +22,7 @@ class Employee:
         weekly_payment = self.payment_strategy.run_strategy(self.weekly_hours)
         self.account_balance += weekly_payment
         return weekly_payment
+
+
+
+
